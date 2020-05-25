@@ -41,7 +41,7 @@ stages:
       runOnce:
         deploy:
           steps:
-          - download: current
+          - download: 89
             artifact: manifests
 
           - task: AzureWebAppContainer@1
